@@ -71,7 +71,7 @@ class ShoppingcartsController extends Controller
      *      "name": x,
      *      "qty": y
      *  }
-     * url structure - ../public/api/shoppingcart/{cartId}/newItem?name=x&qty=y
+     * url structure - ../public/api/shoppingcart/{cartId}?name=x&qty=y
      */ 
     public function add(Request $item, $cartId) {
         $productName = $item['name'];
